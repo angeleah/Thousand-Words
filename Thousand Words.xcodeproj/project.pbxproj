@@ -22,6 +22,9 @@
 		62C23F2518F331C9003B71E8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C23F0918F331C9003B71E8 /* CoreData.framework */; };
 		62C23F2D18F331C9003B71E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62C23F2B18F331C9003B71E8 /* InfoPlist.strings */; };
 		62C23F2F18F331C9003B71E8 /* Thousand_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C23F2E18F331C9003B71E8 /* Thousand_WordsTests.m */; };
+		62C23F3918F3334F003B71E8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C23F3818F3334F003B71E8 /* Storyboard.storyboard */; };
+		62C23F3C18F333F1003B71E8 /* TWAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C23F3B18F333F1003B71E8 /* TWAlbumTableViewController.m */; };
+		62C23F3F18F33A2B003B71E8 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C23F3E18F33A2B003B71E8 /* Album.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		62C23F2A18F331C9003B71E8 /* Thousand WordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thousand WordsTests-Info.plist"; sourceTree = "<group>"; };
 		62C23F2C18F331C9003B71E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62C23F2E18F331C9003B71E8 /* Thousand_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thousand_WordsTests.m; sourceTree = "<group>"; };
+		62C23F3818F3334F003B71E8 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		62C23F3A18F333F1003B71E8 /* TWAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAlbumTableViewController.h; sourceTree = "<group>"; };
+		62C23F3B18F333F1003B71E8 /* TWAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAlbumTableViewController.m; sourceTree = "<group>"; };
+		62C23F3D18F33A2B003B71E8 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		62C23F3E18F33A2B003B71E8 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +123,11 @@
 		62C23F0B18F331C9003B71E8 /* Thousand Words */ = {
 			isa = PBXGroup;
 			children = (
-				62C23F1418F331C9003B71E8 /* TWAppDelegate.h */,
-				62C23F1518F331C9003B71E8 /* TWAppDelegate.m */,
+				62C23F3818F3334F003B71E8 /* Storyboard.storyboard */,
+				62C23F3A18F333F1003B71E8 /* TWAlbumTableViewController.h */,
+				62C23F3B18F333F1003B71E8 /* TWAlbumTableViewController.m */,
+				62C23F3D18F33A2B003B71E8 /* Album.h */,
+				62C23F3E18F33A2B003B71E8 /* Album.m */,
 				62C23F1A18F331C9003B71E8 /* Images.xcassets */,
 				62C23F1718F331C9003B71E8 /* Thousand_Words.xcdatamodeld */,
 				62C23F0C18F331C9003B71E8 /* Supporting Files */,
@@ -127,6 +138,8 @@
 		62C23F0C18F331C9003B71E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				62C23F1418F331C9003B71E8 /* TWAppDelegate.h */,
+				62C23F1518F331C9003B71E8 /* TWAppDelegate.m */,
 				62C23F0D18F331C9003B71E8 /* Thousand Words-Info.plist */,
 				62C23F0E18F331C9003B71E8 /* InfoPlist.strings */,
 				62C23F1118F331C9003B71E8 /* main.m */,
@@ -231,6 +244,7 @@
 			files = (
 				62C23F1018F331C9003B71E8 /* InfoPlist.strings in Resources */,
 				62C23F1B18F331C9003B71E8 /* Images.xcassets in Resources */,
+				62C23F3918F3334F003B71E8 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +265,8 @@
 			files = (
 				62C23F1218F331C9003B71E8 /* main.m in Sources */,
 				62C23F1618F331C9003B71E8 /* TWAppDelegate.m in Sources */,
+				62C23F3C18F333F1003B71E8 /* TWAlbumTableViewController.m in Sources */,
+				62C23F3F18F33A2B003B71E8 /* Album.m in Sources */,
 				62C23F1918F331C9003B71E8 /* Thousand_Words.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
