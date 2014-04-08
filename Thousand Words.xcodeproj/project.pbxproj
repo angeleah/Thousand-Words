@@ -26,6 +26,7 @@
 		62C23F3C18F333F1003B71E8 /* TWAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C23F3B18F333F1003B71E8 /* TWAlbumTableViewController.m */; };
 		62C23F3F18F33A2B003B71E8 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C23F3E18F33A2B003B71E8 /* Album.m */; };
 		62C23F4218F36772003B71E8 /* TWCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C23F4118F36772003B71E8 /* TWCoreDataHelper.m */; };
+		62C23F4518F36B6F003B71E8 /* TWPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C23F4418F36B6F003B71E8 /* TWPhotosCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		62C23F3E18F33A2B003B71E8 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 		62C23F4018F36772003B71E8 /* TWCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCoreDataHelper.h; sourceTree = "<group>"; };
 		62C23F4118F36772003B71E8 /* TWCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCoreDataHelper.m; sourceTree = "<group>"; };
+		62C23F4318F36B6F003B71E8 /* TWPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		62C23F4418F36B6F003B71E8 /* TWPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotosCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				62C23F3818F3334F003B71E8 /* Storyboard.storyboard */,
+				62C23F4318F36B6F003B71E8 /* TWPhotosCollectionViewController.h */,
+				62C23F4418F36B6F003B71E8 /* TWPhotosCollectionViewController.m */,
 				62C23F3A18F333F1003B71E8 /* TWAlbumTableViewController.h */,
 				62C23F3B18F333F1003B71E8 /* TWAlbumTableViewController.m */,
 				62C23F4018F36772003B71E8 /* TWCoreDataHelper.h */,
@@ -269,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62C23F1218F331C9003B71E8 /* main.m in Sources */,
+				62C23F4518F36B6F003B71E8 /* TWPhotosCollectionViewController.m in Sources */,
 				62C23F1618F331C9003B71E8 /* TWAppDelegate.m in Sources */,
 				62C23F3C18F333F1003B71E8 /* TWAlbumTableViewController.m in Sources */,
 				62C23F3F18F33A2B003B71E8 /* Album.m in Sources */,
